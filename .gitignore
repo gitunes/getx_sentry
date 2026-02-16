@@ -16,16 +16,70 @@ migrate_working_dir/
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# VS Code
+.vscode/
 
 # Flutter/Dart/Pub related
 # Libraries should not include pubspec.lock, per https://dart.dev/guides/libraries/private-files#pubspeclock.
 /pubspec.lock
 **/doc/api/
 .dart_tool/
+.flutter-plugins
 .flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
 /build/
 /coverage/
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+*.config.dart
+
+# Flutter metadata
+.metadata
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android related
+**/android/.gradle/
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.*
+**/android/key.properties
+*.jks
+
+# iOS/macOS related
+**/ios/.symlinks/
+**/ios/Pods/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/App.framework
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Pods/
+
+# Example project build files
+example/build/
+example/.dart_tool/
+example/pubspec.lock
+example/ios/
+example/android/
+example/macos/
+example/windows/
+example/linux/
+example/web/
+
