@@ -1,0 +1,30 @@
+name: getx_sentry_example
+description: A complete example demonstrating how to use getx_sentry package
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # GetX state management
+  get: ^4.6.6
+  
+  # Sentry Flutter SDK
+  sentry_flutter: 9.6.0
+
+  
+  # GetX Sentry Integration Package (local path for development)
+  getx_sentry:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

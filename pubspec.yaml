@@ -1,0 +1,29 @@
+name: getx_sentry
+description: "Seamless integration between Sentry and GetX framework for Flutter. Provides automatic error tracking, route observation, and controller lifecycle monitoring."
+version: 1.0.0
+homepage: https://github.com/gitunes/getx_sentry
+repository: https://github.com/gitunes/getx_sentry
+issue_tracker: https://github.com/gitunes/getx_sentry/issues
+
+topics:
+  - sentry
+  - getx
+  - error-tracking
+  - crash-reporting
+  - monitoring
+
+environment:
+  sdk: ^3.10.8
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  sentry_flutter: ^9.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
